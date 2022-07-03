@@ -1,5 +1,6 @@
 const Pool = require("pg").Pool;
 require('dotenv').config()
+//const config = process.env.development?process.env.NODE_ENV == 'development':process.env.production;
 
 const pool = new Pool({
 
