@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const cors = require('cors')
 
 
-const PORT = 3333;
+const PORT = process.event.PORT || 3333;
 const app = express();
 
 app.use(cors({
