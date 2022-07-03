@@ -69,7 +69,6 @@ module.exports = {
   async read_full(req, res, next) {
 
     const query = filter(req.query)
-    console.log(query)
     const { rows } = await pool.query(query)
 
     res.json(rows)
