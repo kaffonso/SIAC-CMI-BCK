@@ -6,8 +6,8 @@ const pool = new Pool({
   host: 'ec2-3-248-121-12.eu-west-1.compute.amazonaws.com',
   database: 'd2us0lvtj0q2cf',
   password: '2322e3f25a2d45629723c639bb6d9f297770d4cb553445490edbd8e99197aed3',
-  dialect: process.env.DB_DIALECT,
-  port: process.env.DB_PORT,
+  dialect: 'postgres',
+  port: 5432,
 
 });
 
