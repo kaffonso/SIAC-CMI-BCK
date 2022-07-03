@@ -8,7 +8,9 @@ const pool = new Pool({
   password: '2322e3f25a2d45629723c639bb6d9f297770d4cb553445490edbd8e99197aed3',
   dialect: 'postgres',
   port: 5432,
-
+  ssl: {
+    rejectUnauthorized: false,
+  }
 });
 
 pool.connect((err, client, release) => {
