@@ -4,10 +4,10 @@ require('dotenv').config()
 
 const pool = new Pool({
 
-  user: 'rmtsthhblhreql',
-  host: 'ec2-3-248-121-12.eu-west-1.compute.amazonaws.com',
-  database: 'd2us0lvtj0q2cf',
-  password: '2322e3f25a2d45629723c639bb6d9f297770d4cb553445490edbd8e99197aed3',
+  user: 'ciwmtaposuydkx',
+  host: 'ec2-99-81-16-126.eu-west-1.compute.amazonaws.com',
+  database: 'd3id1trn7sk0qj',
+  password: '398295e04234284ef31cf80457da3f86effdde28fa651beb57f3578c8d511f1a',
   dialect: 'postgres',
   port: 5432,
   ssl: {
